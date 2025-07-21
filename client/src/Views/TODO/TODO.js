@@ -27,7 +27,7 @@ export function TODO(props) {
     const getTodo = async () => {
         const options = {
             method: "GET",
-            url: "http://localhost:8000/api/todo",
+            url: `http://localhost:8000/api/todo`,
             headers: {
                 accept: "application/json",
             }
